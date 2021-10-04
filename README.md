@@ -1,24 +1,5 @@
 # 21.06-vuejs-g3-debug
 
-## Project setup
-```
-yarn install
-```
+## Excercice
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### You have to find all the bugs that stops the compilation. Good luck :)
