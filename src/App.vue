@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <div id="App">
     <img alt="Vue logo" src="./assets/logo.png">
-    <Helloworld/>
+    <HelloWorld />
   </div>
-  <Helloworld/>
 </template>
 
 <script>
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
