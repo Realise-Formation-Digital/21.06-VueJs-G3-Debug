@@ -1,8 +1,14 @@
 import Vue from 'vue'
-import 'plugins/boostrapVue.js'
+import App from './App.vue'
 
 Vue.config.productionTip = false
 
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+Vue.use(BootstrapVue)
+
+Vue.use(IconsPlugin)
+
 new Vue({
   render: h => h(App),
-})
+}).$mount('#app')
